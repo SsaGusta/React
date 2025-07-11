@@ -2,7 +2,6 @@ import './ListaSuspensa.css'
 
 const ListaSuspensa = (props) => {
 
-
     return (
         <div>
             <label>
