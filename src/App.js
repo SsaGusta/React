@@ -38,7 +38,7 @@ function App() {
     },
     { 
     nome: 'Inovação e Gestão',
-    corPrimaria: '#ffba29',
+    corPrimaria: '#ff8a29',
     corSecundaria: '#ffeedf'
     },
   ]
