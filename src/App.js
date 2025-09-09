@@ -56,10 +56,11 @@ function App() {
       <Banner/>
       <Formulario aoColaboradorCadastrado={colaborador => aoNovoColaboradorAdicionado(colaborador)}/>
       
-      times.map()
+      {times.map(time => <Time key={time.nome} nome={time.nome} corPrimaria={time.corPrimaria} corSecundaria={time.corSecundaria} />)}
 
 
       <Time nome="Programação" />
+    
 
       
     </div>
